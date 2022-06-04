@@ -1,0 +1,9 @@
+C:\Users\Hasan\source\repos\Argeoloji Usb HID Library\Argeoloji Usb HID Library\bin\Debug\Argeoloji Usb HID Library.xml
+C:\Users\Hasan\source\repos\Argeoloji Usb HID Library\Argeoloji Usb HID Library\obj\Debug\Argeoloji Usb HID Library.vbproj.AssemblyReference.cache
+C:\Users\Hasan\source\repos\Argeoloji Usb HID Library\Argeoloji Usb HID Library\obj\Debug\Argeoloji_Usb_HID_Library.Resources.resources
+C:\Users\Hasan\source\repos\Argeoloji Usb HID Library\Argeoloji Usb HID Library\obj\Debug\Argeoloji Usb HID Library.vbproj.GenerateResource.cache
+C:\Users\Hasan\source\repos\Argeoloji Usb HID Library\Argeoloji Usb HID Library\obj\Debug\Argeoloji Usb HID Library.vbproj.CoreCompileInputs.cache
+C:\Users\Hasan\source\repos\Argeoloji Usb HID Library\Argeoloji Usb HID Library\obj\Debug\Argeoloji Usb HID Library.xml
+C:\Users\Hasan\source\repos\Argeoloji Usb HID Library\Argeoloji Usb HID Library\bin\Debug\Argeoloji Usb HID Library.dll.config
+C:\Users\Hasan\source\repos\Argeoloji Usb HID Library\Argeoloji Usb HID Library\bin\Debug\Argeoloji Usb HID Library.dll
+C:\Users\Hasan\source\repos\Argeoloji Usb HID Library\Argeoloji Usb HID Library\obj\Debug\Argeoloji Usb HID Library.dll
