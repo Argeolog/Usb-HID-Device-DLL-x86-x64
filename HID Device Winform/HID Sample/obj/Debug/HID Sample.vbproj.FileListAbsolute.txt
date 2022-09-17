@@ -15,3 +15,21 @@ E:\HID Device\HID Sample\HID Sample\bin\Debug\Argeoloji Usb HID Library.xml
 E:\HID Device\HID Sample\HID Sample\bin\Debug\Argeoloji Usb HID Library.dll.config
 E:\HID Device\HID Sample\HID Sample\obj\Debug\HID_Sample.Anasayfa.resources
 E:\HID Device\HID Sample\HID Sample\obj\Debug\HID Sample.vbproj.CopyComplete
+E:\HID Device\HID Device Winform\HID Sample\bin\Debug\HID Sample.exe.config
+E:\HID Device\HID Device Winform\HID Sample\bin\Debug\HID Sample.exe
+E:\HID Device\HID Device Winform\HID Sample\bin\Debug\HID Sample.pdb
+E:\HID Device\HID Device Winform\HID Sample\bin\Debug\HID Sample.xml
+E:\HID Device\HID Device Winform\HID Sample\bin\Debug\Argeoloji Usb HID Library.dll
+E:\HID Device\HID Device Winform\HID Sample\bin\Debug\Argeoloji Usb HID Library.pdb
+E:\HID Device\HID Device Winform\HID Sample\bin\Debug\Argeoloji Usb HID Library.xml
+E:\HID Device\HID Device Winform\HID Sample\bin\Debug\Argeoloji Usb HID Library.dll.config
+E:\HID Device\HID Device Winform\HID Sample\obj\Debug\HID Sample.vbproj.AssemblyReference.cache
+E:\HID Device\HID Device Winform\HID Sample\obj\Debug\HID Sample.vbproj.SuggestedBindingRedirects.cache
+E:\HID Device\HID Device Winform\HID Sample\obj\Debug\HID_Sample.Anasayfa.resources
+E:\HID Device\HID Device Winform\HID Sample\obj\Debug\HID_Sample.Resources.resources
+E:\HID Device\HID Device Winform\HID Sample\obj\Debug\HID Sample.vbproj.GenerateResource.cache
+E:\HID Device\HID Device Winform\HID Sample\obj\Debug\HID Sample.vbproj.CoreCompileInputs.cache
+E:\HID Device\HID Device Winform\HID Sample\obj\Debug\HID Sample.vbproj.CopyComplete
+E:\HID Device\HID Device Winform\HID Sample\obj\Debug\HID Sample.exe
+E:\HID Device\HID Device Winform\HID Sample\obj\Debug\HID Sample.xml
+E:\HID Device\HID Device Winform\HID Sample\obj\Debug\HID Sample.pdb

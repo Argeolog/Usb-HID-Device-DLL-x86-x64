@@ -1,7 +1,8 @@
-﻿Imports Argeoloji_Usb_HID_Library
+﻿Imports System.Text
+Imports Argeoloji_Usb_HID_Library
 
 Public Class Anasayfa
-    Private ReadOnly Usb1 As New Usb_HID_Port(1590, 1590)
+    Private ReadOnly Usb1 As New Usb_HID_Port(4660, 4660)
 
     Sub New()
 
@@ -31,29 +32,33 @@ Public Class Anasayfa
         End If
     End Sub
 
-    Private Sub Role_Cektir_Click(sender As Object, e As EventArgs) Handles Role_Cektir.Click
-        Dim Buffer(8) As Byte
-        Buffer(1) = 10 ' Bizim Cihazımızın Röleyi Çektirmek için Kabul Ettiği Kod.
-        Usb1.Send_Data(Buffer)
-    End Sub
 
-    Private Sub input_Durum_Sorgu_Click(sender As Object, e As EventArgs) Handles input_Durum_Sorgu.Click
-        Dim SoruBuffer(8) As Byte
-        SoruBuffer(1) = 64 ' Soru Sorma Datası
-        Usb1.Send_Data(SoruBuffer) ' Cihaza Soru Soruyoruz ve Ardından Cevap Bekliyoruz.
 
-        Dim GelenBytes(8) As Byte ' Kaç Bytelık Bir data bekliyorsak O Kadarlık bir Dize Oluşturuyoruz. Fazla Olabilir 8 den Az Olamaz.
-        Usb1.Read_Data(GelenBytes, 1000) ' 1 Saniyelik Time out Süresi Verilmiştir.
-
-        Dim Data As String = Nothing
-        For i = 1 To GelenBytes.Length - 1
-            Data &= GelenBytes(i)
-        Next
-
-        RichTextBox1.Text = Data
-    End Sub
 
     Private Sub Anasayfa_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Data_Gonder_Buton_Click(sender As Object, e As EventArgs) Handles Data_Gonder_Buton.Click
+
+        Gelen_Data_Text.ResetText()
+        Application.DoEvents()
+        Dim SoruBuffer(64) As Byte
+        Array.Copy(Encoding.ASCII.GetBytes(Giden_Data_Text.Text), 0, SoruBuffer, 1, Giden_Data_Text.Text.Length)
+        Usb1.Send_Data(SoruBuffer) ' Cihaza Soru Soruyoruz ve Ardından Cevap Bekliyoruz.
+
+
+
+        Dim GelenBytes(64) As Byte ' Kaç Bytelık Bir data bekliyorsak O Kadarlık bir Dize Oluşturuyoruz. Fazla Olabilir 8 den Az Olamaz.
+        If Usb1.Read_Data(GelenBytes, 100) Then ' 100 ms Bekle
+            Dim Data As String = Nothing
+            For i = 1 To GelenBytes.Length - 1
+                Data &= GelenBytes(i) & ","
+            Next
+
+            Gelen_Data_Text.Text = Data
+        End If
+
 
     End Sub
 End Class
